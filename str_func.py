@@ -1,4 +1,5 @@
 def upper_case(word):
+    """Caps Locking the word"""
     return word.upper()
 
 
@@ -8,3 +9,4 @@ def title(phrase):
 
 
 print(upper_case("ilovepython"))
+print(title("i love python"))
